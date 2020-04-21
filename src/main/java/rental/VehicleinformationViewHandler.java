@@ -24,7 +24,7 @@ public class VehicleinformationViewHandler {
                 // view 객체 생성
                 Vehicleinformation vehicleinformation = new Vehicleinformation();
                 // view 객체에 이벤트의 Value 를 set 함
-                vehicleinformation.setCarId(carRegistered.getCarId);
+                vehicleinformation.setCarId(carRegistered.getCarId());
                 // view 레파지 토리에 save
                 vehicleinformationRepository.save(vehicleinformation);
             }
