@@ -1,15 +1,17 @@
-
 package rental;
 
-public class DeliveryCompleted extends AbstractEvent {
+public class ReservationChanged extends AbstractEvent {
 
     private Long id;
-    private Long reservationId;
     private String carId;
     private String customerNm;
     private String address;
     private String status;
     private Integer qty;
+
+    public ReservationChanged(){
+        super();
+    }
 
     public Long getId() {
         return id;
@@ -17,13 +19,6 @@ public class DeliveryCompleted extends AbstractEvent {
 
     public void setId(Long id) {
         this.id = id;
-    }
-    public Long getReservationId() {
-        return reservationId;
-    }
-
-    public void setReservationId(Long reservationId) {
-        this.reservationId = reservationId;
     }
     public String getCarId() {
         return carId;
