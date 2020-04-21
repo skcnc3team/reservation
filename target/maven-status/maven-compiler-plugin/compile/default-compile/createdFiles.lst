@@ -1,0 +1,10 @@
+rental\DeliveryStarted.class
+rental\Application.class
+rental\AbstractEvent.class
+rental\config\kafka\KafkaProcessor.class
+rental\DeliveryCompleted.class
+rental\CariformationRepository.class
+rental\CariformationViewHandler.class
+rental\Cariformation.class
+rental\PolicyHandler.class
+rental\DeliveryCanceled.class
